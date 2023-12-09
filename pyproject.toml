@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rospy-nonlocalstubs"
+version = "0.0.2"
+authors = [{ name = "JJWRoeloffs", email = "jelleroeloffs@gmail.com" }]
+description = "A hack to get your editor to recognise rospy functions without installing ros on your system."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JJWRoeloffs/rospy-nonlocalstubs"
+"Bug Tracker" = "https://github.com/JJWRoeloffs/rospy-nonlocalstubs/issues"
