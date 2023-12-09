@@ -1,0 +1,3 @@
+[submodule "ros_comm"]
+	path = ros_comm
+	url = https://github.com/ros/ros_comm.git
