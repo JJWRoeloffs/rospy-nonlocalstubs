@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rospy-nonlocalstubs"
-version = "0.1.1"
+version = "0.1.2"
 authors = [{ name = "JJWRoeloffs", email = "jelleroeloffs@gmail.com" }]
 description = "A hack to get your editor to recognise rospy functions without installing ros on your system."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: Apache Software License",
